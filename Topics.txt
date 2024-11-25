@@ -1,0 +1,12 @@
+
+Tutorial URL - https://www.youtube.com/watch?v=WyxzAU3p8CE&list=PLjpp5kBQLNTSTU2xZf3cmD3Bv5foEkfD-&index=2
+
+TOPICS:
+1. Introduction to CSS
+2. CSS syntax
+3. How to add CSS
+4. CSS selectors
+5. CSS comments
+6. Colors in CSS
+7. CSS backgrounds
+8. Border
