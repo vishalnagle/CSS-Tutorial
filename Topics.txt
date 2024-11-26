@@ -10,3 +10,8 @@ TOPICS:
 6. Colors in CSS
 7. CSS backgrounds
 8. Border
+9. CSS height and width
+10. Padding
+11. Margins
+12. Box Model
+13. Text
