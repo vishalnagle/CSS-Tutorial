@@ -19,3 +19,11 @@ TOPICS:
 15. Fonts
 16. CSS Units
 17. CSS Cursor
+18. CSS !important
+19. CSS box shadow
+20. CSS Opacity
+21. CSS filter
+22. Image sprites
+23. CSS Gradients
+24. CSS Overflow
+25. CSS Resizable
