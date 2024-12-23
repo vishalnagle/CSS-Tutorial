@@ -27,3 +27,14 @@ TOPICS:
 23. CSS Gradients
 24. CSS Overflow
 25. CSS Resizable
+26. CSS Lists
+27. CSS Tables
+28. CSS Functions
+29. Box Sizing
+30. Initial vs Inherit
+31. Image object fit 
+32. Psuedo classes
+33. Pseudo-element
+34. CSS display and visibility
+35. CSS position
+36. CSS Layers and z-index
