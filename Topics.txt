@@ -38,3 +38,9 @@ TOPICS:
 34. CSS display and visibility
 35. CSS position
 36. CSS Layers and z-index
+37. Float and clear
+38. CSS 2D Transforms
+39. CSS 3D Transforms
+40. CSS Transitions
+41. CSS Animations
+42. Print style in CSS
