@@ -44,3 +44,12 @@ TOPICS:
 40. CSS Transitions
 41. CSS Animations
 42. Print style in CSS
+43. Responsive web design
+44. Viewport meta tag
+45. Media queries
+46. Advanced selectors
+47. CSS specificity
+48. CSS multiple columns
+49. Flexbox
+50. Grid 
+51. CSS validations
