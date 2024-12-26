@@ -1,6 +1,8 @@
 
 Tutorial URL - https://www.youtube.com/watch?v=WyxzAU3p8CE&list=PLjpp5kBQLNTSTU2xZf3cmD3Bv5foEkfD-&index=2
 
+Position Tutorial URL - https://www.youtube.com/watch?v=b8VzVQ_PgyM
+
 TOPICS:
 1. Introduction to CSS
 2. CSS syntax

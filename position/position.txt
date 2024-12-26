@@ -1,0 +1,114 @@
+ Position has these four properties
+ 
+ 1.static (default) - normal flow
+ 2.relative
+ 3.fixed
+ 4.absolute
+
+ 1.top 
+ 2.bottom 
+ 3.left 
+ 4.right
+
+
+ The position property in CSS is used to define how an element is positioned in the document. 
+ It has several values, each controlling the element's behavior and placement in relation to its parent or other elements. 
+ Here's a breakdown:
+
+ 1. static (Default Value)
+    Description: The element is positioned according to the normal document flow.
+    Properties like top, right, bottom, and left: Have no effect.
+    Use Case: Default behavior; when no special positioning is needed.
+
+    .element {
+    position: static;
+    }
+
+
+2.  relative
+    Description: The element is positioned relative to its normal position.
+    Properties like top, right, bottom, and left: Offset the element from its original position.
+    Use Case: Slightly adjusting the position without affecting the flow of other elements.
+
+
+    .element {
+    position: relative;
+    top: 10px; /* Moves the element 10px down from its original position */
+    }
+
+
+3.  absolute
+    Description: The element is positioned relative to the nearest positioned ancestor (relative, absolute, or fixed). If no ancestor is positioned, it is relative to the <html> element.
+    Properties like top, right, bottom, and left: Define the position in relation to the containing block.
+    Use Case: Creating dropdowns, tooltips, or elements that float independently.
+
+
+    .container {
+    position: relative; /* Positioned ancestor */
+    }
+    .element {
+    position: absolute;
+    top: 20px; /* 20px from the top of the `.container` */
+    left: 30px; /* 30px from the left of the `.container` */
+    }
+
+
+    .container {
+    position: relative; /* Positioned ancestor */
+    }
+    .element {
+    position: absolute;
+    top: 20px; /* 20px from the top of the `.container` */
+    left: 30px; /* 30px from the left of the `.container` */
+    }
+
+
+4.  fixed
+    Description: The element is positioned relative to the browser window, regardless of scrolling.
+    Properties like top, right, bottom, and left: Define the fixed position on the viewport.
+    Use Case: Sticky headers, footers, or floating buttons.
+
+    .element {
+    position: fixed;
+    bottom: 0; /* Sticks to the bottom of the viewport */
+    right: 10px; /* 10px from the right edge */
+    }
+
+
+5.  sticky
+    Description: The element toggles between relative and fixed depending on the scroll position.
+    Properties like top, right, bottom, and left: Define the sticky boundaries.
+    Use Case: Creating sticky headers or sidebars.
+
+    .element {
+    position: sticky;
+    top: 0; /* Sticks to the top of the parent when scrolled */
+    }
+
+
+6.  inherit
+    Description: The element inherits the position value from its parent.
+    Use Case: Ensuring consistent positioning for child elements.
+
+    .parent {
+    position: relative;
+    }
+    .child {
+    position: inherit; /* Inherits `relative` from the parent */
+    }
+
+
+    Key Properties Associated with position
+    top: Moves the element downward (positive value) or upward (negative value).
+    right: Moves the element leftward (positive value) or rightward (negative value).
+    bottom: Moves the element upward (positive value) or downward (negative value).
+    left: Moves the element rightward (positive value) or leftward (negative value).
+    z-index: Specifies the stack order of elements (higher values appear on top).
+
+
+
+
+
+
+
+
